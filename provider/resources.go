@@ -28,7 +28,7 @@ import (
 	"github.com/pulumi/pulumi/sdk/v3/go/common/resource"
 
 	// Replace this provider with the provider you are bridging.
-	btp "github.com/SAP/terraform-provider-btp/internal/provider"
+	btp "github.com/SAP/terraform-provider-btp/shim"
 
 	"github.com/tieyanfu/pulumi-btp/provider/pkg/version"
 )
